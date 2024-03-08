@@ -8,6 +8,6 @@ const App = () =>{
         </Route>;
         <Redirect to = '/' />;
     </Router>;
-};
+}; 
 
 export default App;

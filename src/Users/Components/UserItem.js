@@ -6,8 +6,7 @@ import {Link} from 'react-router-dom';
 
 const UserItem = props => {
     return(
-        <li className="user-list">
-            
+        <li className="user-item">
                 <Card className="user-item__content">
                 <Link to={`/${props.id}/places`}>
                 <div className="user-item__image">
@@ -21,7 +20,6 @@ const UserItem = props => {
                 </div>
             </Link>
             </Card>
-            
         </li>
     );
 };

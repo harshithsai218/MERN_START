@@ -9,13 +9,13 @@ const App = () =>{
       <MainNavigation/> 
       <main>
       <Switch>
-        <Route path='/' exact>
+        <Route path="/" exact>
           <Users/> 
         </Route>;
-        <Route path='/places/new' exact>
+        <Route path="/places/new" exact>
           <NewPlaces/> 
         </Route>;
-        <Redirect to = '/' />;
+        <Redirect to = "/" />;
         </Switch> 
         </main>
     </Router>;

@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './MainNavigation.css'
+
 import MainHeader from "./MainHeader";
+
+import './MainNavigation.css'
 
 const MainNavigation = props =>{
     return <MainHeader>
-        <button className="main-navigation__btn">
+        <button className="main-navigation__menu-btn">
             <span/>
             <span/>
             <span/>
@@ -18,5 +20,6 @@ const MainNavigation = props =>{
         </nav>
     </MainHeader>
 };
+
 
 export default MainNavigation;
